@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Day 7 – Real-Time Searchable UI with Debounce and Tailwind Layout
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my 150-day developer preparation journey, focused on building performant and scalable interfaces in React. On Day 7, I developed a modular search experience with dynamic filtering, custom hooks, and responsive design.
 
-## Available Scripts
+## ✅ What I Practiced:
+- Controlled input handling in React
+- Filtering large datasets with string matching
+- Custom `useDebounce` hook for performance optimization
+- Case-insensitive search logic with clean UX
+- Responsive grid and card layout using Tailwind CSS
 
-In the project directory, you can run:
+## 🧠 Key Concepts Covered:
+- Debounce pattern using useEffect and setTimeout
+- Conditional rendering for no-match fallback
+- Modular architecture separating SearchBar, ResultList, and Dataset
+- Optional feature extensions like keyword highlighting and item count
 
-### `npm start`
+## 🛠 Features:
+- Product list filtered in real-time as user types
+- 300ms debounce delay to reduce re-renders
+- Case-insensitive matching
+- Tailwind-powered grid layout
+- Handles large arrays of mock data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack:
+- React.js (Functional Components)
+- Custom Hooks (`useDebounce`)
+- Tailwind CSS
+- JavaScript string and array filtering methods
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Why This Matters:
+Search is a core feature in nearly every frontend app — from dashboards and ecommerce to admin panels. Today’s project balances performance and user experience, a concept often tested in top product interviews and real-world UI audits.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Day 7 complete. Building search logic that feels intuitive and scales with your users.
